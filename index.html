@@ -1,81 +1,173 @@
-
 <!DOCTYPE html>
 <html lang="fr">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Expresso Fret Connect</title>
+  <title>Expresso Fret Connect - Marketplace Logistique Intelligent</title>
   <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
-  <header>
-    <h1>Expresso Fret Connect</h1>
+
+<header>
+  <div class="container header-container">
+    <div class="logo">
+      <i class="fas fa-truck-fast"></i>
+      <span>Expresso Fret Connect</span>
+    </div>
     <nav>
-      <a href="#how-it-works">Comment ça marche</a>
-      <a href="#devis">Demande de devis</a>
-      <a href="#contact">Contact</a>
+      <ul>
+        <li><a href="#how-it-works">Comment ça marche</a></li>
+        <li><a href="#value-props">Avantages</a></li>
+        <li><a href="#testimonials">Témoignages</a></li>
+        <li><a href="#registration">S'inscrire</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
     </nav>
-  </header>
+    <div class="auth-buttons">
+      <a href="#login" class="btn btn-outline">Connexion</a>
+    </div>
+  </div>
+</header>
 
-  <section id="how-it-works" class="detailed-how-it-works">
-    <h2>Notre Processus en 4 Étapes Simples</h2>
-    <div class="step">
-      <div class="step-number">1</div>
-      <div class="step-content">
-        <h3>Demande en Ligne</h3>
-        <p>Remplissez notre formulaire simplifié avec les détails de votre envoi (dimensions, destination, type de marchandise).</p>
+<section class="hero">
+  <div class="container">
+    <h1>Marketplace B2B pour la logistique tunisienne</h1>
+    <p>Connectez-vous directement avec des fournisseurs certifiés, éliminez les intermédiaires et réduisez vos coûts jusqu'à 40%</p>
+    <div class="hero-buttons">
+      <a href="#registration" class="btn btn-primary">Expéditeur</a>
+      <a href="#registration" class="btn btn-secondary">Transporteur</a>
+    </div>
+  </div>
+</section>
+
+<!-- VALORE PROPS -->
+<section id="value-props" class="value-props">
+  <div class="container">
+    <div class="section-title">
+      <h2>Notre plateforme élimine les frictions du marché</h2>
+      <p>Une solution complète pour optimiser votre chaîne logistique</p>
+    </div>
+    <div class="props-grid">
+      <div class="prop-card">
+        <div class="prop-icon"><i class="fas fa-hand-holding-usd"></i></div>
+        <h3>Pas de commissions cachées</h3>
+        <p>Paiement direct entre parties, seulement 2% de frais de matching sécurisés.</p>
+      </div>
+      <div class="prop-card">
+        <div class="prop-icon"><i class="fas fa-chart-line"></i></div>
+        <h3>Économies garanties</h3>
+        <p>Comparez instantanément +200 transporteurs et négociez sans intermédiaire.</p>
+      </div>
+      <div class="prop-card">
+        <div class="prop-icon"><i class="fas fa-shield-alt"></i></div>
+        <h3>Fournisseurs vérifiés</h3>
+        <p>Tous certifiés avec historique validé et capacités opérationnelles vérifiées.</p>
       </div>
     </div>
-    <div class="step">
-      <div class="step-number">2</div>
-      <div class="step-content">
-        <h3>Estimation Instantanée</h3>
-        <p>Recevez immédiatement une estimation de prix basée sur nos tarifs préférentiels avec les transporteurs tunisiens.</p>
+  </div>
+</section>
+
+<!-- HOW IT WORKS -->
+<section id="how-it-works" class="how-it-works">
+  <div class="container">
+    <div class="section-title">
+      <h2>Fonctionnement du marketplace</h2>
+      <p>Connectez-vous en 4 étapes simples</p>
+    </div>
+    <div class="steps">
+      <div class="step">
+        <div class="step-number">1</div>
+        <h3>Créez votre profil</h3>
+        <p>Inscrivez-vous en tant qu'acheteur ou fournisseur en quelques clics.</p>
+      </div>
+      <div class="step">
+        <div class="step-number">2</div>
+        <h3>Publiez votre besoin/offre</h3>
+        <p>Ajoutez détails et documents pour des propositions ciblées.</p>
+      </div>
+      <div class="step">
+        <div class="step-number">3</div>
+        <h3>Recevez des propositions</h3>
+        <p>Notre algorithme vous connecte aux 3-5 meilleurs partenaires.</p>
+      </div>
+      <div class="step">
+        <div class="step-number">4</div>
+        <h3>Collaborez directement</h3>
+        <p>Messagerie, contrats et paiements sécurisés intégrés.</p>
       </div>
     </div>
-    <div class="step">
-      <div class="step-number">3</div>
-      <div class="step-content">
-        <h3>Mise en Relation</h3>
-        <p>Nous vous connectons sous 24h avec le transporteur certifié le plus adapté à vos besoins spécifiques.</p>
+  </div>
+</section>
+
+<!-- TESTIMONIALS -->
+<section id="testimonials" class="testimonials">
+  <div class="container">
+    <div class="section-title">
+      <h2>Témoignages</h2>
+      <p>Ils nous font confiance</p>
+    </div>
+    <div class="testimonials-slider">
+      <div class="testimonial">
+        <blockquote>
+          "Grâce à Expresso Fret Connect, nous avons réduit nos coûts de transport de 35% et sécurisé nos livraisons."
+        </blockquote>
+        <div class="author">- Leila M., TextileCo</div>
       </div>
     </div>
-    <div class="step">
-      <div class="step-number">4</div>
-      <div class="step-content">
-        <h3>Expédition Sécurisée</h3>
-        <p>Votre transporteur prend en charge l'envoi avec suivi en temps réel et assistance douanière si nécessaire.</p>
+  </div>
+</section>
+
+<!-- REGISTRATION -->
+<section id="registration" class="registration">
+  <div class="container">
+    <div class="section-title">
+      <h2>Rejoignez notre marketplace</h2>
+      <p>Commencez dès aujourd'hui</p>
+    </div>
+    <div class="registration-container">
+      <div class="form-tabs">
+        <button class="tab-btn active" data-tab="shipper">Je suis expéditeur</button>
+        <button class="tab-btn" data-tab="carrier">Je suis transporteur</button>
+      </div>
+
+      <div id="shipper" class="tab-content active">
+        <!-- Form expéditeur ici -->
+      </div>
+      <div id="carrier" class="tab-content">
+        <!-- Form transporteur ici -->
       </div>
     </div>
-  </section>
+  </div>
+</section>
 
-  <section id="devis" class="quote-form">
-    <h2>Demande d'Estimation Gratuite</h2>
-    <form action="mailto:contact@expressofretconnect.com" method="post" enctype="text/plain">
-      <input type="text" name="Type d'expédition" placeholder="Type d'expédition" required><br>
-      <input type="number" name="Poids (kg)" placeholder="Poids (kg)" required><br>
-      <input type="text" name="Destination" placeholder="Destination" required><br>
-      <input type="email" name="Email" placeholder="Email" required><br>
-      <textarea name="Détails supplémentaires" placeholder="Détails supplémentaires"></textarea><br>
-      <button type="submit">Obtenir mon estimation</button>
-    </form>
-  </section>
+<!-- FOOTER -->
+<footer id="contact">
+  <div class="container footer-container">
+    <div class="footer-column">
+      <h3>À propos</h3>
+      <ul>
+        <li><a href="#">Notre mission</a></li>
+        <li><a href="#">Notre équipe</a></li>
+      </ul>
+    </div>
+    <div class="footer-column">
+      <h3>Services</h3>
+      <ul>
+        <li><a href="#">Expédition</a></li>
+        <li><a href="#">Transport</a></li>
+      </ul>
+    </div>
+    <div class="footer-column">
+      <h3>Contact</h3>
+      <ul>
+        <li><a href="#">Support</a></li>
+        <li><a href="#">Nous contacter</a></li>
+      </ul>
+    </div>
+  </div>
+</footer>
 
-  <section class="testimonials">
-    <h2>Ils nous ont fait confiance</h2>
-    <blockquote>"Expresso Connect a réduit nos coûts logistiques de 30% tout en améliorant la fiabilité de nos envois vers la Tunisie."</blockquote>
-    <blockquote>"Interface simple et transporteurs sérieux. Notre partenaire logistique pour tous nos envois internationaux désormais."</blockquote>
-  </section>
-
-  <section class="final-cta" id="contact">
-    <h2>Simplifiez votre logistique dès aujourd'hui</h2>
-    <p>Rejoignez notre réseau de professionnels satisfaits.</p>
-    <a href="#devis">Demander une estimation</a>
-    <p>Ou contactez-nous au +216 XX XXX XXX (lun-ven 8h-18h)</p>
-  </section>
-
-  <footer>
-    <p>&copy; 2025 Expresso Fret Connect</p>
-  </footer>
 </body>
 </html>
